@@ -35,7 +35,11 @@ input {
   border-radius: 4px;
 }
 
-.function-container.active {
+.function-container {
+  display: none;
+}
+
+.function-container--active {
   display: block;
 }
 
@@ -79,9 +83,6 @@ nav button:active {
 /* ************************** */
 /* FUNCTION--FOR--EACH--BTN */
 /* ************************** */
-.function-container {
-  display: none;
-}
 
 .function-body {
   max-width: 30rem;
