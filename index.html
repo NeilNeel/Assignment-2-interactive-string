@@ -10,15 +10,17 @@
   <body>
     <div class="main-container">
       <nav>
-        <button type="button" class="btn-reverse-string">Reverse String</button>
-        <button type="button" class="btn-check-palindrome">
+        <button type="button" class="btn btn-reverse-string">
+          Reverse String
+        </button>
+        <button type="button" class="btn btn-check-palindrome">
           Check Palindrome
         </button>
-        <button type="button" class="btn-total-bill">Total Bill</button>
+        <button type="button" class="btn btn-total-bill">Total Bill</button>
       </nav>
       <main>
         <h1>MAIN SECTION</h1>
-        <div class="function-container">
+        <div class="function-container function-container--reverse">
           <h2 class="function-title">Reverse String</h2>
           <div class="function-body">
             <input
@@ -26,11 +28,45 @@
               id="reverse-string-input"
               placeholder="Enter a string"
             />
-            <button type="button" class="btn--reverse">Reverse</button>
-            <p id="reverse-string-output"></p>
+            <button type="button" class="btn btn--reverse">Reverse</button>
+            <p id="reverse-string-output output"></p>
+          </div>
+        </div>
+        <div class="function-container function-container--palindrome">
+          <h2 class="function-title">Check for Palindrome Number</h2>
+          <div class="function-body">
+            <input
+              type="text"
+              id="palindrome-check"
+              placeholder="Enter a Number"
+            />
+            <button type="button" class="btn btn--check-palindrome">
+              is Palindrome?
+            </button>
+            <p id="palindrome-check-output output"></p>
+          </div>
+        </div>
+        <div class="function-container function-container--total-bill">
+          <h2 class="function-title">Total Bill</h2>
+          <div class="function-body">
+            <input
+              type="text"
+              id="total-bill"
+              placeholder="Enter sub-total amount"
+            />
+            <input
+              type="text"
+              id="tip-percetage"
+              placeholder="Enter Percentage of tip"
+            />
+            <button type="button" class="btn btn--total-bill">
+              Calculate Total Bill
+            </button>
+            <p id="total-bill-output output"></p>
           </div>
         </div>
       </main>
     </div>
   </body>
+  <script src="./script.js"></script>
 </html>
