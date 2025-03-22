@@ -71,11 +71,6 @@ nav {
   background-color: #f5f5f5;
 }
 
-nav button:hover {
-  background-color: #ccc;
-  color: #f5f5f5;
-}
-
 nav button:active {
   background-color: #ddd;
 }
