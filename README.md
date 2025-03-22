@@ -18,4 +18,4 @@ This repository contains an assignment for my web development class. It is a sim
 
 ## Purpose
 
-This project was created as part of my web development course to practice JavaScript DOM manipulation, event handling, and basic CSS styling.
+This project was created as part of my web development course to practice JavaScript DOM manipulation, event handling, and basic CSS styling. [Live Demo](https://neilneel.github.io/Assignment-2-interactive-string)
